@@ -9,14 +9,14 @@ gem 'rakismet'
 ```
 
 ```ruby
-config.rakismet.key = ''
-config.rakismet.url = ''
+config.rakismet.key = 'your wordpress key'
+config.rakismet.url = 'http://yourdomain.com/'
 
-YourApp::Application.config.rakismet.key = ''
-YourApp::Application.config.rakismet.url = ''
+YourApp::Application.config.rakismet.key = 'your wordpress key'
+YourApp::Application.config.rakismet.url = 'http://yourdoamin.com/'
 
-config.rakismet.proxy_host = ''
-config.rakismet.proxy_port = ''
+config.rakismet.proxy_host = 'http://yourdomain.com/'
+config.rakismet.proxy_port = '8080'
 
 config.rakismet.url = Proc.new {}
 
